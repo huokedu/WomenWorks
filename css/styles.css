@@ -1,0 +1,57 @@
+.title {
+    background-color: white  ;
+    border: solid 10px;
+    border-style: 1px;
+    border-width: 1px;
+    min-height: 20px;
+    min-width: 10px;
+    overflow: scroll;
+}
+.ul {
+    background-color: orange;
+    border: solid 2px;  
+    
+}
+.aa {
+    background-color: whitesmoke;
+}
+
+
+.img_avatar
+{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.link_fb {
+    color: skyblue;
+    font-family: monospace;
+}
+.tab1   {background-color: cornflowerblue}
+
+.film   {
+    border: solid 1px;
+    background-color: darkcyan;
+    
+}
+
+
+.all   {
+    background-color: whitesmoke;
+}
+
+.tab2 {
+    color: green;
+}
+.margin {
+    margin-top: 20px;
+}
+
+.size {
+    font-size: 18px;
+    padding: 6px 12px;
+}
