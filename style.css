@@ -1,0 +1,46 @@
+/* BOOTSTRAP OVERRIDES */
+.navbar-default{
+    background: transparent;
+    border: 0 none;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand{
+    color: limegreen;
+}
+/* BOOTSTRAP OVERRIDES END */
+
+
+/*
+.hover:hover {
+    background-color: transparent;
+}
+*/
+.search-splash{
+    height: 100vh;
+    background: url('https://www.incimages.com/uploaded_files/image/1940x900/getty_477541648_2000133320009280119_86555.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.search-container{
+    margin-top: 1vh;
+}
+.search-container-2{
+    margin-top:5vh;
+}
+
+.color {
+    color: white;
+}
+.we   {
+    width: 100%;
+}
+.col    {
+    margin-top: 40vh;
+    font-size: 43;
+    color: ghostwhite;
+    font-family: 'Merriweather', serif;
+}
+

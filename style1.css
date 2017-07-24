@@ -1,0 +1,16 @@
+/* BOOTSTRAP OVERRIDES */
+
+.navbar-default .navbar-brand {
+    color: limegreen;
+}
+/* BOOTSTRAP OVERRIDES END */
+.search-container{
+       
+    margin-top: 1vh;
+}
+.search-container-1{
+    margin-top: 25vh;
+}
+.wit    {
+     width: 100%; 
+}
