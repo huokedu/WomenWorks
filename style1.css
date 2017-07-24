@@ -9,8 +9,14 @@
     margin-top: 1vh;
 }
 .search-container-1{
-    margin-top: 25vh;
+    margin-top: 13vh;
 }
 .wit    {
      width: 100%; 
+}
+.color  {
+    color: green;
+}
+.size   {
+    font-size: 17px;
 }

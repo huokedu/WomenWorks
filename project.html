@@ -3,10 +3,13 @@
     <meta charset="utf-8">
     <title> Womenworks</title>
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-    <script href="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/css" rel="stylesheet"></script>
-    <link href="style.css" type="text/css" rel="stylesheet"/>
     <link rel="icon" href="http://icons.iconarchive.com/icons/webalys/kameleon.pics/512/Businesswoman-1-icon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top ">
@@ -20,17 +23,19 @@
               </button>
               <a class="navbar-brand" href="file:///C:/Users/Administrator/Desktop/Codeathon/project.html">WOMENWORKS</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="http://facebook.com">Jobs</a></li>
-                <li class="color"><a href="http://facebook.com">Company Reviews</a></li>
-                <li><a href="http://facebook.com">For employees</a></li>
-                <li><a href="http://facebook.com">For employers</a></li>
-            
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="Signin.html">Sign in</a></li>
-                <li><a href="signup.html">Sign up</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="http://facebook.com">Jobs</a></li>
+                    <li class="color"><a href="http://facebook.com">Company Reviews</a></li>
+                    <li><a href="http://facebook.com">For employees</a></li>
+                    <li><a href="http://facebook.com">For employers</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Signin.html">Sign in</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="search-splash">
@@ -65,30 +70,32 @@
         
     </div>
     <hr>
+    <p><strong>Find Your Job That Fits Your Life</strong></p>
    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+       
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="http://cdn.moneycrashers.com/wp-content/uploads/2011/06/artist-girl-painting.jpg" alt="http://cdn.moneycrashers.com/wp-content/uploads/2011/06/artist-girl-painting.jpg">
+              <img src="images/artist-girl-painting.jpg" alt="images/artist-girl-painting.jpg">
               <div class="carousel-caption">
                 ahihi
               </div>
             </div>
             <div class="item">
-              <img src="http://wdy.h-cdn.co/assets/17/08/980x653/virtual-assistant.jpg" alt="http://wdy.h-cdn.co/assets/17/08/980x653/virtual-assistant.jpg">
+              <img src="images/H1B3902.jpg" alt="images/H1B3902.jpg">
               <div class="carousel-caption">
                 This is caption
               </div>
             </div>
             <div class="item">
-              <img src="http://wdy.h-cdn.co/assets/17/08/980x653/virtual-assistant.jpg" alt="http://wdy.h-cdn.co/assets/17/08/980x653/virtual-assistant.jpg">
+              <img src="images/hero-woman-laptop-computer-prepare-job-interview.jpg.jpg" alt="images/hero-woman-laptop-computer-prepare-job-interview.jpg.jpg">
               <div class="carousel-caption">
                 This is caption
               </div>
@@ -105,6 +112,43 @@
             <span class="sr-only">Next</span>
           </a>
 </div>
+    <hr>
+    <p><strong>What's New at WomenWorks</strong></p>
+    <div class="row">
+        
+  <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img src="https://media.glassdoor.com/home/feature-link/com/KYW_Blog-750x370.jpg" alt="https://media.glassdoor.com/home/feature-link/com/KYW_Blog-750x370.jpg">
+      <div class="caption">
+        <h3>Are You Paid Fairly? See Your Market Worth in Seconds</h3>
+        <p>Receive a custom salary estimate based on your title, company, location, and experience.</p>
+        <p><a href="#" class="btn btn-success we" role="button">Get Your Estimate</a></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img src="https://blog-content.glassdoor.com/app/uploads/sites/2/iStock-638061090-750370.jpg" alt="https://blog-content.glassdoor.com/app/uploads/sites/2/iStock-638061090-750370.jpg">
+      <div class="caption">
+        <h3>20 Companies Hiring Like Crazy in July</h3>
+        <p>With positions spanning industries from tech to construction and beyond, there’s something for everyone.</p>
+        <p><a href="#" class="btn btn-success we" role="button">Read Article</a></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img src="https://media.glassdoor.com/home/feature-link/com/1_BainCompany-750x370.jpg" alt="https://media.glassdoor.com/home/feature-link/com/1_BainCompany-750x370.jpg">
+      <div class="caption">
+        <h3>WomenWork's Employees' Choice Awards 2017</h3>
+        <p>WomenWork's annual Employees' Choice Awards honor the Best Places to Work across North America and parts of Europe.</p>
+        <p><a href="#" class="btn btn-success we" role="button">See the 2017 List</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
     <div class="jumbotron fullcolor">
             <p class="text-center">Log in to WomenWorks. Sign in to get instant access to jobs, salaries and reviews - posted anonymously by employees and job seekers. Don't have an account login? Sign up now.</p>
             <hr>

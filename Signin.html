@@ -1,15 +1,19 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Log In | Womenworks</title>
+        <title> Womenworks</title>
         <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-        <link href="style1.css" type="text/css" rel="stylesheet"/>
         <link rel="icon" href="http://icons.iconarchive.com/icons/webalys/kameleon.pics/512/Businesswoman-1-icon.png"/>
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="style1.css" type="text/css" rel="stylesheet"/>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top ">
-        <div class="container hover">
+        <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -19,27 +23,42 @@
               </button>
               <a class="navbar-brand" href="file:///C:/Users/Administrator/Desktop/Codeathon/project.html">WOMENWORKS</a>
             </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="http://facebook.com">Jobs</a></li>
+                    <li class="color"><a href="http://facebook.com">Company Reviews</a></li>
+                    <li><a href="http://facebook.com">For employees</a></li>
+                    <li><a href="http://facebook.com">For employers</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+<!--                    <li><a href="Signin.html">Sign in</a></li>-->
+                    <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
         <div class="container">
              <div class="row search-container-1 col-sm-4 col-xs-offset-4">
+                 <p class="size">Sign In to WomenWorks</p>
                 <a target="_blank" href="http://google.com" class="btn btn-danger btn-lg active wit" role="button">Sign In with Google</a>
             </div>
             <div class="row search-container col-sm-4 col-xs-offset-4">
                 <a target="_blank" href="http://facebook.com" class="btn btn-primary btn-lg active wit" role="button">Sign In with Facebook</a>
+                <hr>
+                
             </div>
         </div>
-        <hr>
+        
         <div class="container">
             <form class="form-horizontal search-container">
           <div class="form-group">
-<!--            <label for="inputEmail3" class="col-sm-2 control-label col-xs-offset-2">Email</label>-->
             <div class="col-sm-4 col-xs-offset-4">
+                
               <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
             </div>
           </div>
           <div class="form-group">
-<!--            <label for="inputPassword3" class="col-sm-2 control-label col-xs-offset-2">Password</label>-->
             <div class="col-sm-4 col-xs-offset-4">
               <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
             </div>
@@ -56,11 +75,77 @@
           <div class="form-group">
             <div class="col-sm-offset-4 col-sm-4">
               <button type="submit" class="btn btn-default">Sign in</button>
+                <hr>
             </div>
           </div>
         </form>
         </div>
-        <hr>
         <p class="text-center">Don't have an account? <a href="sighup.html">Sign Up</a></p>
+         <div class="jumbotron col">
+            <p class="text-center">Log in to WomenWorks. Sign in to get instant access to jobs, salaries and reviews - posted anonymously by employees and job seekers. Don't have an account login? Sign up now.</p>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                        <strong>WomenWorks</strong>
+                        <br>
+                        About Us
+                        <br>Awards & Trends<br>Blog<br>Research
+                    </div>
+                    <div class="col-sm-2">
+                        <strong>Employers</strong><br>Get a Free Employer Account<br>Employer Center<br>Post a Job
+                    </div>
+                    <div class="col-sm-2">
+                        <strong>Community</strong><br>Help Center<br>Guidelines<br>Terms of Use<br>Privacy & Cookies
+                    </div>
+                    <div class="col-sm-2">
+                        <strong>Work With Us</strong><br>Job Boards<br>Advertisers<br>Developers<br>Careers
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 text-center">Download the App</div>
+                   
+                    <div class="col-sm-1"> 
+                        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-user color" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"> 
+                        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-phone color" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"> 
+                        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-expand color" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"> 
+                        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-globe color" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                   
+                    <div class="col-sm-2 col-sm-offset-1">
+                        <div class="btn-group">
+                          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Việt Nam&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            <p class="text-center">Copyright © 2017–2017, WomenWorks, Inc. "WomenWorks" and logo are proprietary trademarks of WomenWorks, Inc.</p>
+        </div>
     </body>
 </html>
