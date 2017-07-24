@@ -1,10 +1,12 @@
 /* BOOTSTRAP OVERRIDES */
+/*
 .navbar-default{
     background: transparent;
     border: 0 none;
 }
+*/
 .navbar-default .navbar-nav>li>a{
-    color: #ffffff;
+    color: #0CAA41;
 }
 
 .navbar-default .navbar-brand{
@@ -43,4 +45,13 @@
     color: ghostwhite;
     font-family: 'Merriweather', serif;
 }
-
+.color {
+    color: green;
+}
+.fullcolor  {
+    color: whitesmoke;
+    background-color: #404040;
+}
+.colo   {
+    color: whitesmoke;
+}
