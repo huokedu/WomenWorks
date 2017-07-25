@@ -1,0 +1,31 @@
+/* BOOTSTRAP OVERRIDES */
+.navbar-default{
+    background: #0CAA41;
+    border: 0 none;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #0CAA41;
+}
+
+.navbar-default .navbar-brand{
+    color: #ffffff;
+}
+
+
+/* BOOTSTRAP OVERRIDES END */
+
+.fullbackg  {
+    background-color: white;
+}
+
+.full-font  {
+ font-family: 'Lustria', serif;
+}
+
+
+/*
+.back   {
+    height: 100vh;
+    background:url(http://assets.str.md/5437d93842513f04990040fb/850aa0ac-b9ec-4678-adcd-dfcaec9c4669.jpg) center center no-repeat;
+    background-size: cover;
+}*/

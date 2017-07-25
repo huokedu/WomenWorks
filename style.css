@@ -10,7 +10,7 @@
 }
 
 .navbar-default .navbar-brand{
-    color: limegreen;
+    color: #0CAA41;
 }
 
 
@@ -35,20 +35,17 @@
     margin-top:5vh;
 }
 
-.color {
-    color: white;
-}
+
 .we   {
     width: 100%;
 }
 .col    {
     margin-top: 40vh;
-    font-size: 43;
-    color: ghostwhite;
-    font-family: 'Merriweather', serif;
+    font-size: 45;
+    color: #ffffff;
 }
 .color {
-    color: green;
+    color: #0CAA41;
 }
 .fullcolor  {
     color: whitesmoke;
@@ -56,4 +53,17 @@
 }
 .colo   {
     color: whitesmoke;
+}
+.coo    {
+    color: black;
+}
+
+.full-font  {
+ font-family: 'Lustria', serif;
+
+
+}
+
+.back   {
+    background-color: #0CAA41;
 }

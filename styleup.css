@@ -1,0 +1,38 @@
+/* BOOTSTRAP OVERRIDES */
+/*
+.navbar-default{
+    background: transparent;
+    border: 0 none;
+}
+*/
+.navbar-default .navbar-nav>li>a{
+    color: #0CAA41;
+}
+
+.navbar-default .navbar-brand{
+    color: #0CAA41;
+}
+
+
+/* BOOTSTRAP OVERRIDES END */
+
+.back   {
+    background-color: #0CAA41;
+}
+
+
+.full-font  {
+ font-family: 'Lustria', serif;
+}
+
+.margin {
+    margin-top: 10vh;
+}
+
+.wit    {
+    width: 100%;
+}
+
+.color  {
+    color: #0CAA41;
+}

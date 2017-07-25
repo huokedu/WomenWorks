@@ -1,5 +1,9 @@
+.navbar-default .navbar-nav>li>a{
+    color: #0CAA41;
+}
+
 .navbar-default .navbar-brand {
-    color: limegreen;
+    color: #0CAA41;
 }
 .size   {
      margin-top: 10vh;
@@ -13,9 +17,19 @@
     font-size: 15px;
 }
 .color  {
-    color: green;
+    color: #0CAA41;
 }
 .col {
     background-color: whitesmoke;
     
+}
+.co {
+    color: white;
+}
+.coo    {
+    color: black;
+}
+
+.full-font  {
+ font-family: 'Lustria', serif;
 }

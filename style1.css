@@ -1,7 +1,10 @@
 /* BOOTSTRAP OVERRIDES */
+.navbar-default .navbar-nav>li>a{
+    color: #0CAA41;
+}
 
 .navbar-default .navbar-brand {
-    color: limegreen;
+    color: #0CAA41;
 }
 /* BOOTSTRAP OVERRIDES END */
 .search-container{
@@ -15,8 +18,16 @@
      width: 100%; 
 }
 .color  {
-    color: green;
+    color: #0CAA41;
 }
 .size   {
+    margin-top: 10vh;
     font-size: 17px;
+}
+.coo    {
+    color: black;
+}
+
+.full-font  {
+ font-family: 'Lustria', serif;
 }
