@@ -22,6 +22,10 @@
  font-family: 'Lustria', serif;
 }
 
+.back   {
+    background-color: whitesmoke;
+}
+
 
 /*
 .back   {
@@ -29,3 +33,5 @@
     background:url(http://assets.str.md/5437d93842513f04990040fb/850aa0ac-b9ec-4678-adcd-dfcaec9c4669.jpg) center center no-repeat;
     background-size: cover;
 }*/
+
+

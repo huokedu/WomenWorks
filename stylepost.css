@@ -1,0 +1,37 @@
+/* BOOTSTRAP OVERRIDES */
+.navbar-default{
+    background: #0CAA41;
+    border: 0 none;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand{
+    color: #ffffff;
+}
+
+
+/* BOOTSTRAP OVERRIDES END */
+
+
+
+.search-splash{
+    height: 74vh;
+    background: url('https://static.glassdoor.com/static/img/illustration/job-posting/landing/landingHero.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.col    {
+    margin-top: 35vh;
+    font-size: 45;
+    color: #ffffff;
+}
+.wit    {
+     width: 100%; 
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+.back   {
+    background-color: whitesmoke;
+}

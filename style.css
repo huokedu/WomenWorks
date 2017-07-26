@@ -67,3 +67,11 @@
 .back   {
     background-color: #0CAA41;
 }
+
+
+
+.product-icon i.icon-thumbprint {
+    width: 47px;
+    margin-right: 4px;
+    background-image: url(//static.glassdoor.com/pc/static/img/scaled/thumb.svg?v=bf2dd93dr);
+}
