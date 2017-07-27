@@ -1,0 +1,80 @@
+/* BOOTSTRAP OVERRIDES */
+/*
+.navbar-default{
+    background: transparent;
+    border: 0 none;
+}
+*/
+.navbar-default .navbar-nav>li>a{
+    color: #0CAA41;
+}
+
+.navbar-default .navbar-brand{
+    color: #0CAA41;
+}
+
+
+/* BOOTSTRAP OVERRIDES END */
+
+
+/*
+.hover:hover {
+    background-color: transparent;
+}
+*/
+.search-splash{
+    height: 100vh;
+    background: url('https://media.glassdoor.com/home/hero.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.search-container{
+    margin-top: 1vh;
+}
+.search-container-2{
+    margin-top:5vh;
+}
+
+
+.we   {
+    width: 100%;
+}
+.col    {
+    margin-top: 40vh;
+    font-size:49px;
+    color: #ffffff;
+}
+.color {
+    color: #0CAA41;
+}
+.fullcolor  {
+    color: whitesmoke;
+    background-color: #404040;
+}
+.colo   {
+    color: whitesmoke;
+}
+.coo    {
+    color: black;
+}
+
+.full-font  {
+ font-family: 'Lustria', serif;
+
+
+}
+.wi {
+  width: 50%;
+}
+
+.back   {
+    background-color: whitesmoke;
+}
+.fullbackg  {
+    background-color: white;
+}
+.border  {
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+}
