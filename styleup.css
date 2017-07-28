@@ -38,5 +38,29 @@
 }
 
 .size   {
-    font-size: 60px;
+    font-size: 70px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+}
+
+.fullback   {
+    background-color: whitesmoke;
+}
+
+.fsize  {
+    font-size: 20px;
+}
+
+
+.wi {
+    width: 201px;
+}
+
+.deleteborder   {
+   border-color: transparent;
 }
