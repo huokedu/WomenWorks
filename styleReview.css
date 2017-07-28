@@ -16,6 +16,9 @@
 
 /* BOOTSTRAP OVERRIDES END */
 
+.media .media-heading  {
+    color: #0000b3;
+}
 
 /*
 .hover:hover {
@@ -23,16 +26,17 @@
 }
 */
 .search-splash{
-    height: 100vh;
+    margin-top: 3vh;
+    height: 500px;
     background: url('https://media.glassdoor.com/home/hero.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .search-container{
-    margin-top: 1vh;
+    margin-top: 0vh;
 }
 .search-container-2{
-    margin-top:5vh;
+    margin-top:8vh;
 }
 
 
@@ -40,22 +44,22 @@
     width: 100%;
 }
 .col    {
-    margin-top: 40vh;
-    font-size:49px;
-    color: #ffffff;
+    margin-top: 30vh;
+    font-size: 60px;
+    color: ghostwhite;
 }
 .color {
     color: #0CAA41;
 }
 .fullcolor  {
-    color: whitesmoke;
-    background-color: #404040;
+    background-color: #0CAA41;
+
 }
 .colo   {
     color: whitesmoke;
 }
 .coo    {
-    color: black;
+    color: whitesmoke;
 }
 
 .full-font  {
@@ -76,5 +80,16 @@
 .border  {
     border-style: solid;
     border-width: 1px;
-    border-color: green;
+    border-color: lightgray;
+}
+
+
+.coadd  {
+    background-color: #1861bf;
+}
+
+
+.bac    {
+    background-color: #404040;
+    color: white;
 }

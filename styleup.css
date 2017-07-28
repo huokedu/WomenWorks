@@ -37,6 +37,19 @@
     color: #0CAA41;
 }
 
+.co {
+    color: royalblue;
+    border-color: royalblue;
+}
+
+.c  {
+    color: whitesmoke;
+}
+
+.coo    {
+    color: black;
+}
+
 .size   {
     font-size: 70px;
 }
