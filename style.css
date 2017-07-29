@@ -31,7 +31,7 @@
 
 
 .search-splash{
-    height: 100vh;
+    height: 600;
     background: url('https://www.incimages.com/uploaded_files/image/1940x900/getty_477541648_2000133320009280119_86555.jpg') center center no-repeat;
     background-size: cover;
 }
@@ -48,8 +48,8 @@
     width: 100%;
 }
 .col    {
-    margin-top: 40vh;
-    font-size: 45;
+    margin-top: 35vh;
+    font-size: 55;
     color: #ffffff;
 }
 .color {
@@ -63,13 +63,18 @@
     color: whitesmoke;
 }
 .coo    {
-    color: black;
+    color: whitesmoke;
 }
 
 .full-font  {
  font-family: 'Lustria', serif;
 
 
+}
+
+.hiring {
+    color: #ffffff;
+    font-size: 60;
 }
 
 .back   {
@@ -81,5 +86,10 @@
 .product-icon i.icon-thumbprint {
     width: 47px;
     margin-right: 4px;
-    background-image: url(//static.glassdoor.com/pc/static/img/scaled/thumb.svg?v=bf2dd93dr);
+    background-image: url(http://static.glassdoor.com/pc/static/img/scaled/thumb.svg?v=bf2dd93dr);
+}
+
+
+.que    {
+    background-color: whitesmoke;
 }
