@@ -34,11 +34,13 @@ img {
 }
 
 
+/*
 .search-splash{
     height: 600;
     background: url('https://www.incimages.com/uploaded_files/image/1940x900/getty_477541648_2000133320009280119_86555.jpg') center center no-repeat;
     background-size: cover;
 }
+*/
 
 .search-container{
     margin-top: 1vh;
@@ -52,9 +54,9 @@ img {
     width: 100%;
 }
 .col    {
-    margin-top: 35vh;
-    font-size: 55;
-    color: #ffffff;
+   
+    font-size: 43;
+    color: whitesmoke;
 }
 .color {
     color: #0CAA41;
@@ -80,9 +82,7 @@ img {
 
 
 }
-.fontt  {
-    color:whitesmoke;
-}
+
 .hiring {
     color: #ffffff;
     font-size: 60;
