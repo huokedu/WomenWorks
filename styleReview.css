@@ -25,12 +25,14 @@
     background-color: transparent;
 }
 */
+/*
 .search-splash{
     margin-top: 3vh;
     height: 500px;
     background: url('https://media.glassdoor.com/home/hero.jpg') center center no-repeat;
     background-size: cover;
 }
+*/
 
 .search-container{
     margin-top: 0vh;
@@ -44,8 +46,8 @@
     width: 100%;
 }
 .col    {
-    margin-top: 30vh;
-    font-size: 60px;
+    
+    font-size: 75px;
     color: ghostwhite;
 }
 .color {

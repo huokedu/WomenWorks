@@ -12,6 +12,21 @@
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body class="full-font">
+    
+<script>
+                    $(document).ready(function(){
+                        $('[data-toggle="tooltip"]').tooltip(); 
+                    });
+                    </script>  
+    
+<script>   
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+
+</script>     
+    
+    
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -82,7 +97,7 @@
     
     <hr>
     <h2>Company Hiring Now</h2>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="hihi" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -119,11 +134,11 @@
       </div>
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#hihi" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <a class="right carousel-control" href="#hihi" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -161,7 +176,33 @@
                 <li>Flexible packages based on your budget</li>
             </ul>
             <br><br>
-            <a href="Signin.html" class=""><button type="button" class="btn btn-success btn-lg back">Get a Free Employer Account</button></a>
+            <button type="button" class="btn btn-success btn-lg back" data-toggle="modal" data-target="#myModal">Get a Free Employer Account</button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Sign in</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="control-label">Email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="control-label">Password:</label>
+                                <input type="password" class="form-control" id="message-text">
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+                            <a href="Employers.html"><button type="button" class="btn btn-success btn-lg back">Log in</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
         </div>
             
     </div>
@@ -178,7 +219,7 @@
             <h3>Are You Paid Fairly? See Your Market Worth in Seconds</h3>
             <p>Receive a custom salary estimate based on your title, company, location, and experience.</p>
           </div>
-          <p><a href="#" class="btn btn-success we back" role="button">Get Your Estimate</a></p>
+          <p><a class="btn btn-success we back" role="button" data-toggle="tooltip" data-placement="top" title="Sorry, this function has not worked yet">Get Your Estimate</a></p>
         </div>
       </div>
          <div class="col-sm-12 col-md-4 news">
@@ -188,7 +229,7 @@
             <h3>20 Companies Hiring Like Crazy in July</h3>
             <p>With positions spanning industries from tech to construction and beyond, there’s something for everyone.</p>
           </div>
-            <p><a href="#" class="btn btn-success we back" role="button">Read Article</a></p>
+            <p><a class="btn btn-success we back" role="button" data-toggle="tooltip" data-placement="top" title="Sorry, this function has not worked yet">Read Article</a></p>
         </div>
       </div>
          <div class="col-sm-12 col-md-4 news">
@@ -198,7 +239,7 @@
             <h3>WomenWork's Employees' Choice Awards 2017</h3>
             <p>WomenWork's annual Employees' Choice Awards honor the Best Places to Work across South East Asia.</p>
           </div>
-            <p><a href="#" class="btn btn-success we back" role="button">See the 2017 List</a></p>
+            <p><a class="btn btn-success we back" role="button" data-toggle="tooltip" data-placement="top" title="Sorry, this function has not worked yet">See the 2017 List</a></p>
         </div>
       </div>
     </div>

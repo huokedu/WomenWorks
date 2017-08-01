@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    
+    
 </head>
 <body class="full-font">
 <div class="container-fluid">  
@@ -60,6 +62,7 @@
     
     <div class="row fullback">
         <div class="container">
+            
             <div class="col-sm-1"></div>
             <div class="col-sm-6 bor bac">
                 <h3>Upload a Resume</h3>
@@ -68,11 +71,21 @@
                 <br>
                 <p>Select a File:</p>
                 
-                <button type="submit" class="btn btn-primary wit btn-file"><span>Choose file <input type="file"></span></button>
+                <button type="submit" class="btn btn-primary wit btn-file"><span><input type="file"></span></button>
               
                 <br><br>
-                <div class="col-sm-6"><a class="btn btn-default wit co" href="#" role="button"><strong>Dropbox</strong></a></div>
-                <div class="col-sm-6"><a class="btn btn-default wit co" href="#" role="button"><strong>Google Drive</strong></a></div>
+                <div class="col-sm-6">
+                    
+                    <button type="button" class="btn btn-default wit co" data-toggle="tooltip" data-placement="bottom" title="Sorry, this function has not worked yet"><b>Dropbox</b></button>
+                    <script>
+                    $(document).ready(function(){
+                        $('[data-toggle="tooltip"]').tooltip(); 
+                    });
+                    </script>
+                
+                </div>
+                <div class="col-sm-6"><button type="button" class="btn btn-default wit co" data-toggle="tooltip" data-placement="bottom" title="Sorry, this function has not worked yet"><b>Google Drive</b></button>
+                </div>
                 <br><br>
                 <small>.doc, .docx, .rtf, .txt or .pdf (5MB limit)</small>
                 <br><br>
@@ -80,10 +93,10 @@
                 <br><br>
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                   <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-primary">Yes</button>
+                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Sorry, this function has not worked yet">Yes</button>
                   </div>
                   <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default"><strong>No</strong></button>
+                    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sorry, this function has not worked yet"><strong>No</strong></button>
                   </div>
                 </div>
                 <br>

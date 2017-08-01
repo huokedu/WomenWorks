@@ -15,8 +15,35 @@
 
 
 /* BOOTSTRAP OVERRIDES END */
+.fullcolor  {
+    color: whitesmoke;
+    background-color: #404040;
+}
 
 
+.fullback   {
+    background-color: white;
+}
+
+.wit    {
+    width: 100%;
+    border-color: transparent;
+    color: #1861bf;
+}
+
+.star   {
+    color: #0CAA41;
+    border-color: transparent;
+}
+.trend  {
+    color: #1861bf;
+    border-color: transparent;
+}
+
+.save   {
+    color: #0CAA41;
+    border-color: #0CAA41;
+}
 
 .margin {
     margin-top: 10vh;
@@ -40,6 +67,21 @@
 
 }
 
+.coo    {
+    color: whitesmoke;
+}
+
+.cool   {
+    color: black;
+}
+
+.list-inline    {
+    color: #0CAA41;
+}
+
+.media .media-heading   {
+    color: #1861bf;
+}
 
 .border {
     border-style: solid;

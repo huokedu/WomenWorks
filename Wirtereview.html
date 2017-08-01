@@ -12,6 +12,11 @@
         <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </head>
     <body class="full-font">
+        <script>
+                    $(document).ready(function(){
+                        $('[data-toggle="tooltip"]').tooltip(); 
+                    });
+                    </script>
         <div class="container-fluid">
         <nav class="navbar navbar-default navbar-fixed-top ">
             <div class="container">
@@ -51,24 +56,27 @@
                               </div>
                               <div class="media-body">
                                     <h4 class="media-heading">Company</h4>
-
+                                    
                                     <input type="email" class="form-control" id="inputEmail3" placeholder="">
-
+                                    
                                      <h4 class="media-heading">Overall Rating</h4> 
-
-                                    <select class="form-control">
-                                      <option>1★</option>
-                                      <option>2★</option>
-                                      <option>3★</option>
-                                      <option>4★</option>
-                                      <option>5★</option>
+                                    
+                                    <select class="form-control  color">
+                                      <option class="size">1★</option>
+                                      <option class="size" >2★</option>
+                                      <option class="size">3★</option>
+                                      <option class="size" >4★</option>
+                                      <option class="size" >5★</option>
                                     </select>
 
                                       <h4>Are you a current or former employee?</h4>
 
                                       <div class="btn-group" role="group" aria-label="...">
-                                          <button type="button" class="btn btn-primary">Current</button>
-                                          <button type="button" class="btn btn-default">Former&nbsp</button>
+                                          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Current</button>
+                                         
+<!--                                          <button type="button" class="btn btn-primary">Current</button>-->
+                                          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Former</button>
+    <!--                                          <button type="button" class="btn btn-default">Former&nbsp</button>-->
                                       </div>
                                       <h4>Employment Status</h4>
 
@@ -102,7 +110,7 @@
                                         </label>
                                     </div>
 
-                                    <button type="button" class="btn btn-primary">Submit Review</button>
+                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Sorry, this function has not worked yet">Submit Review</button>
                                   <br>
                                   <br>
                               </div>
